@@ -4,7 +4,8 @@
  
   This example code is in the public domain.
  */
- 
+
+// change something in a different section of the file 
 // Pin 13 has an LED connected on most Arduino boards.
 // give it a name:
 int led = 13;
@@ -17,8 +18,8 @@ void setup() {
 
 // the loop routine runs over and over again forever:
 void loop() {
-  digitalWrite(led, HIGH);   // turn the LED on (HIGH is the voltage level), then wait for three seconds
+  digitalWrite(led, HIGH);   // turn the LED on (HIGH is the voltage level)
   delay(3000);               // wait for a second
-  digitalWrite(led, LOW);    // turn the LED off by making the voltage LOW, then wait for four seconds
+  digitalWrite(led, LOW);    // turn the LED off by making the voltage LOW
   delay(4000);               // wait for a second
 }
