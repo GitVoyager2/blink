@@ -12,4 +12,6 @@ Another change
 
 # test 6
 
+# test 7
+
 This repository has an example file to blink the LED on an Arduino board.
